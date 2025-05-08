@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0E44BB !important;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.nav-link {
+    color: #fff;
+    margin-left: 200px;
+    text-align: center; /* Centralize o texto na horizontal */
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#editor {
+    height: 250px;
+    font-size: 1rem; /* Defina o tamanho da fonte para Heading 1 (2rem) */
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+#Download {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ---------------------------------  FORMULARIOS DA FERRAMENTA PARA PROFESSORES ---------------------------------------------- */
+
+/* Estilo para os campos do formulário */
+
+

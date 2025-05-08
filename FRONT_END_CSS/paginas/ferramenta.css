@@ -1,0 +1,192 @@
+.accessibility-panel {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.custom-tooltip {
+  display: flex;
+  align-items: center;
+  margin-bottom: -40px; /* Removendo margem inferior */
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  line-height: 1; /* Removendo espaço entre as linhas */
+}
+
+.custom-tooltip:hover {
+  background-color: yellow;
+}
+
+.material-icons {
+  font-size: 24px;
+}
+
+/* Estilos dos botões */
+button {
+  display: block;
+  margin: 40px auto;
+  padding: 12px 24px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #333333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para o botão de alto contraste */
+.high-contrast-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.high-contrast-button-link {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.high-contrast-button-link:focus,
+.high-contrast-button-link:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+/* Estilos para a página em alto contraste */
+body.high-contrast {
+  background-color: black;
+}
+
+body.high-contrast h1,
+body.high-contrast h2,
+body.high-contrast h3,
+body.high-contrast p,
+body.high-contrast legend,
+body.high-contrast label,
+body.high-contrast .footer-title,
+body.high-contrast .footer-text {
+  color: #ff3;
+  transition: font-size 0.3s ease;
+}
+
+body.high-contrast input[type="text"]{
+  background-color: black;
+  color: #ff3;
+  font-size: 22px;
+  border: #ff3 solid 1px;
+}
+
+body.high-contrast input[type="email"]{
+  background-color: black;
+  color: #ff3;
+  font-size: 22px;
+  border: #ff3 solid 1px;
+}
+
+body.high-contrast ::placeholder{
+  color: #ff3;
+}
+
+body.high-contrast textarea{
+  background-color: black;
+  color: #ff3;
+  font-size: 22px;
+  border: #ff3 solid 1px;
+}
+
+body.high-contrast textarea:focus{
+  background-color: black;
+  color: #ff3;
+}
+
+body.high-contrast input[type="password"]{
+  background-color: black;
+  color: #ff3;
+  font-size: 22px;
+  border: #ff3 solid 1px;
+}
+
+body.high-contrast .zoom-effect {
+  transition: font-size 0.3s ease;
+}
+
+body.high-contrast.zoom-active .zoom-effect:hover {
+  font-size: 1.5em;
+  cursor: zoom-in;
+}
+
+body.high-contrast .navbar {
+  background-color: black !important;
+  border: 1px solid black !important;
+}
+
+body.high-contrast #footer {
+  background-color: black;
+  color: white;
+}
+
+body.high-contrast .high-contrast-button-link,
+body.high-contrast .high-contrast-button-link:focus,
+body.high-contrast .high-contrast-button-link:hover {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.high-contrast .high-contrast-button-link {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+body.high-contrast .high-contrast-button-link:focus,
+body.high-contrast .high-contrast-button-link:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+body.high-contrast .container{
+  background-color: black;
+}
+
+body.high-contrast table{
+  background-color: black;
+  border: #ff3 solid 1px;
+}
+
+body.high-contrast th{
+  background-color: black;
+  border: #ff3 solid 1px;
+  color: #ff3;
+}
+
+body.high-contrast td{
+  background-color: black;
+  border: #ff3 solid 1px;
+  color: #ff3;
+}
+
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.centered {
+    text-align: center;
+
+}
+

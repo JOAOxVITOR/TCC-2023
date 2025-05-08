@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+}
+
+input[type=text] {
+    margin: 5px;
+    width: 350px;
+    padding: 5px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc; /* Cor da borda da caixa de texto */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 20px; /* Aumenta o espaçamento interno das células */
+    text-align: left; /* Alinhar o texto à esquerda para melhor legibilidade */
+}
+
+th {
+    background-color: #0E44BB;
+    color: white;
+}
+
+td {
+    color: #333;
+    background-color: white;
+}
+
+/* Estilo para links */
+a {
+    color: #007BFF; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+}
+
+/* Cor dos links quando passar o mouse */
+a:hover {
+    color: #0056b3;
+}
+
+/* Estilo para a tabela */
+table {
+    border-collapse: collapse;
+    width: calc(100% - 250px); /* Ajuste a largura da tabela para acomodar o sidebar */
+    margin: 20px auto;
+    border: 1px solid #ccc; /* Cor da borda da tabela */
+    float: center; /* Coloque a tabela à direita */
+}
+
+/* Estilo para o menu lateral */
+.menu-lateral {
+    width: 250px; /* Largura do sidebar */
+    position: fixed; /* Mantenha o sidebar fixo na tela */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #333; /* Cor de fundo do sidebar */
+    overflow-y: auto; /* Adicione uma barra de rolagem se o conteúdo for maior do que o tamanho do sidebar */
+}
+
+/* Estilo para o botão de expandir */
+.btn-expandir {
+    display: none; /* Oculte o botão de expandir quando o sidebar estiver expandido */
+    cursor: pointer;
+}
+
