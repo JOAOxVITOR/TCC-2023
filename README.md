@@ -41,9 +41,3 @@ IMAGENS: Imagen utilizada no projeto
 
 FRONT_END_HTML: Layouts e componentes HTML.
 
-
-
-
-
-
-/uploads: Arquivos enviados pelos usuários.
